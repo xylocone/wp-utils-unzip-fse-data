@@ -1,0 +1,32 @@
+{
+  "name": "@xylocone/unzip-fse-data",
+  "version": "1.0.0-beta",
+  "description": "Unzips the zip exported from Site Editor and updates the theme's templates and parts using that unzipped data",
+  "main": "package/index.js",
+  "type": "module",
+  "bin": {
+    "unzip-fse-data": "package/index.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wordpress",
+    "gutenberg",
+    "site",
+    "editor",
+    "unzip",
+    "templates",
+    "parts"
+  ],
+  "author": "xylocone",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "chokidar": "^3.5.3",
+    "zip-lib": "^0.7.3"
+  }
+}
